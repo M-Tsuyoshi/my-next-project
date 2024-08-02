@@ -1,0 +1,21 @@
+.header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 24px 8px;
+  z-index: 1000;
+  @media (width <= 640px) {
+    padding: 24px 16px 8px;
+  }
+}
+
+.logoLink {
+  display: flex;
+}
+
+.logo {
+  width: auto;
+  height: 24px;
+}
