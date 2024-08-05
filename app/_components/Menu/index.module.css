@@ -1,0 +1,44 @@
+.nav {
+  @media (width <= 640px) {
+    display: none;
+  }
+}
+
+.nav.open {
+  @media (width <= 640px) {
+    display: block;
+    padding: 24px 16px;
+    position: fixed;
+    inset: 0;
+    background-color: var(--color-bg-painted);
+    color: var(--color-text-unpainted);
+  }
+}
+
+.items {
+  display: flex;
+  gap: 40px;
+  color: #fff;
+  @media (width <= 640px) {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+.button {
+  display: none;
+  @media (width <= 640px) {
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+}
+
+.close {
+  @media (width <= 640px) {
+    position: absolute;
+    top: 24px;
+    right: 16px;
+  }
+}
