@@ -29,6 +29,7 @@ export default async function Home() {
           width={4000}
           height={1200}
           priority
+          sizes="100vw"
         />
         {/* <img className={styles.bgimg} src="/img-mv.webp" alt="" /> */}
       </section>
