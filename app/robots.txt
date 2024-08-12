@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://my-next-project-gamma.vercel.app/sitemap.xml
